@@ -45,7 +45,7 @@ class ProdutoTests(APITestCase):
         
     def test_patch_produto(self):
         """
-        [002] Teste de criação de produto - Método POST
+        [002] Teste de alteração de produto - Método PATCH
         
         """
         #obter url do endpoint
@@ -92,7 +92,7 @@ class ProdutoTests(APITestCase):
 
     def test_delete_produto(self):
         """
-        [005] Teste de obtenção de produto específico por identação - Método GET
+        [005] Teste de exclusão de um produto por identação - Método DELETE
         
         """
         #obter url do endpoint        
@@ -125,7 +125,7 @@ class ProdutoTests(APITestCase):
     
     def test_delete_grupo(self):
         """
-        [007] Teste de obtenção de produto específico por identação - Método GET
+        [007] Teste de exclusão de um grupo por identação - Método DELETE
         
         """
         #obter url do endpoint
